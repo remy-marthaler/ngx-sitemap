@@ -1,0 +1,32 @@
+{
+  "name": "ngx-sitemap",
+  "version": "1.0.0",
+  "description": "CLI to create a sitemap for Angular Universal Applications with prerendered pages",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular Universal",
+    "Angular SSR",
+    "Prerendering",
+    "Sitemap",
+    "Generator"
+  ],
+  "author": "Remy Marthaler <remy.marthaler@hotmail.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy-marthaler/ngx-sitemap.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "ngx-sitemap": "./bin/index.js"
+  },
+  "dependencies": {
+    "@types/glob": "^7.2.0",
+    "glob": "^8.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
