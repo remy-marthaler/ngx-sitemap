@@ -19,7 +19,7 @@ ngx-sitemap <srcDirectory> <baseUrl>
 
 Example:
 ```
-ngx-sitemap ./dist/prod/browser htts://www.example.com
+ngx-sitemap ./dist/prod/browser https://www.example.com
 ```
 
 This will generate a ``sitemap.xml`` in the srcDirectory given.
